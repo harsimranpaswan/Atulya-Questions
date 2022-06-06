@@ -9,7 +9,8 @@ def sorter(list_n,y):
 
 
 list_n=[]
-for i in range(0,5):
+n=int(input("input length of list: "))
+for i in range(0,n):
     list_n.append(int(input()))
 y=input("enter the sorting parameter(asc/desc/none): ")
 sorter(list_n,y)
