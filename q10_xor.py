@@ -1,6 +1,3 @@
-from tkinter import Y
-
-
 x=int(input("first number: "))
 y=int(input("second number: "))
 12
